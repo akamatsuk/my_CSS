@@ -1,12 +1,9 @@
-ul {
-    /* list-style-type: circle;
-    list-style-position: inside;
-    list-style-image: url(../img/icon.png); */
-    list-style: circle inside url(../img/icon.png);
+img {
+    float: right
 }
 
-ol {
-    list-style-type: lower-alpha;
-    list-style: inside;
-    /* list-style-type: none; */
+h2 {
+    clear: right;
+    /* clear: left;
+    clear: both; */
 }
