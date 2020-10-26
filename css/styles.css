@@ -2,6 +2,79 @@
 /* [href="#top"]{ */
 /* [href^="https"]{ */
 /* [href$="dotinstall"]{ */
-[href*="com"]{
+/* [href*="com"]{
     font-weight: bold;
+} */
+/* h1::before,
+h2::before {
+    content: '- ';
 }
+
+h1::after,
+h2::after {
+    content: ' -';
+    content: attr(data-subtitle);
+} */
+/* .btn {
+    width: 100px;
+    background: skyblue;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+} */
+/* main > :nth-child(3) {
+    background: pink;
+} */
+/* main > :nth-child(3n) {
+    background: pink;
+} */
+
+/* main > :nth-child(odd) {
+    background: pink;
+}
+
+main > :nth-child(even) {
+    background: pink;
+} */
+/* main > :first-child {
+    background: pink;
+}
+
+main > :last-child {
+    background: skyblue;
+} */
+
+/* main > h2:nth-of-type(3) {
+    background: pink;
+} */
+/* 
+main > h2:nth-of-type(2n) {
+    background: pink;
+} */
+
+/* main > h2:first-of-type {
+    background: pink;
+}
+
+main > h2:last-of-type {
+    background: skyblue;
+} */
+
+/* li:empty {
+    background: skyblue;
+} */
+/* 
+li:not(:empty) {
+    background: skyblue;
+} */
+
+#about > #main { color: gray;}
+h1 { color: red !important; }
+h1#main.box { color: yellow !important; }
+section > #main.title { color: blue;}
+section#about > h1 {color: pink;}
