@@ -1,9 +1,7 @@
-img {
-    float: right
-}
-
-h2 {
-    clear: right;
-    /* clear: left;
-    clear: both; */
+/* [target] { */
+/* [href="#top"]{ */
+/* [href^="https"]{ */
+/* [href$="dotinstall"]{ */
+[href*="com"]{
+    font-weight: bold;
 }
