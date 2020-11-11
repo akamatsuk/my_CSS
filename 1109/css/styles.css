@@ -1,21 +1,19 @@
-.container{
+section {
     display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
+section:nth-child(even) {
+    flex-direction: row-reverse
 }
 
-.box1 {
-    background: orange;
-    flex: 1;
+.pic {
+    width: 180px;
+    /* margin-right: 32px; */
 }
 
-.box2 {
-    background: skyblue;
-}
-
-.box3 {
-    background: tomato;
+desc {
+    /* flex: 1; */
+    width: calc(100% - 180px -32px);
 }
